@@ -24,12 +24,6 @@ enum Link {
     }
 }
 
-enum NetworkError: Error {
-    case invalidURL
-    case noData
-    case decodingError
-}
-
 final class NetworkManager {
     static let shared = NetworkManager()
     

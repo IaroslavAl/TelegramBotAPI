@@ -15,7 +15,6 @@
 		C4BB56B62A0D81920087D902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB56B42A0D81920087D902 /* LaunchScreen.storyboard */; };
 		C4BB56C52A0D85720087D902 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB56C42A0D85720087D902 /* NetworkManager.swift */; };
 		C4BB56C82A0D90FD0087D902 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C4BB56C72A0D90FD0087D902 /* Alamofire */; };
-		C4BB56CA2A0DA7F00087D902 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB56C92A0DA7F00087D902 /* Message.swift */; };
 		C4BB56CE2A0E5A870087D902 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB56CD2A0E5A870087D902 /* Bot.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		C4BB56B52A0D81920087D902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4BB56B72A0D81920087D902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4BB56C42A0D85720087D902 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		C4BB56C92A0DA7F00087D902 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C4BB56CD2A0E5A870087D902 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				C4BB56CD2A0E5A870087D902 /* Bot.swift */,
-				C4BB56C92A0DA7F00087D902 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,7 +203,6 @@
 				C4BB56C52A0D85720087D902 /* NetworkManager.swift in Sources */,
 				C4BB56CE2A0E5A870087D902 /* Bot.swift in Sources */,
 				C4BB56AE2A0D818F0087D902 /* MainViewController.swift in Sources */,
-				C4BB56CA2A0DA7F00087D902 /* Message.swift in Sources */,
 				C4BB56AA2A0D818F0087D902 /* AppDelegate.swift in Sources */,
 				C4BB56AC2A0D818F0087D902 /* SceneDelegate.swift in Sources */,
 			);
