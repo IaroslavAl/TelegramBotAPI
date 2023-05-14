@@ -84,6 +84,7 @@ final class MainViewController: UIViewController {
             if textField == messageTF {
                 linkButton.isHidden = false
             }
+            textField?.becomeFirstResponder()
         }
         alert.addAction(okAction)
         present(alert, animated: true)
